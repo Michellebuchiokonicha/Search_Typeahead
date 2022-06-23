@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search_cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="the-basics.js"></script>
+</head>
+<body>
+  <div class="body">
+    <nav class="nav">
+        <div class="hamburger">
+            <img src="ham.png" class="ham">
+        </div>
+        <!-- <div class="log"> -->
+        <div class="logo">Logo</div>
+        <div class="view">
+            
+                <div class="imgSearch" id="the-basics">
+                    <img src="searchIcon.png" class="bar">
+                    <input class="typeahead search" type="text" placeholder = "Search Products" >
+                </div>
+               <!-- <div class="wordSearch"> Search products</div> -->
+            <button class="innerSearch">Search</button>
+        </div>
+     <!-- </div> -->
+        <div class="help">Help</div>
+        <div class="art">Cart</div>
+    </nav>
+
+    <div>
+        <div class="cart">
+            <!-- <div><img src="cart1.png"></div> -->
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="cart">
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="deals">
+                <img src="cocacola.jpg" class="hotel">
+                <div class="all">
+                <div class="product">
+                    <div>Cocacola Large Size</div>
+                   <div class="num"><img src="naira1.png" class="naira">440,000</div>
+                </div>
+                <div class="products">
+                    <div>Lagos Vendor</div>
+                    <div><a href="#"><img src="whatsapp1.png" class="whatsapp"></a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+  <script>
+    $('.typeahead').typeahead({
+        minLength: 3,
+        highlight: true,
+        source: function(query,process){
+            console.log("hfyff")
+        }
+        })
+  </script>
+</body>
+</html>
